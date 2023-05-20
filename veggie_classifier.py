@@ -44,7 +44,7 @@ def main():
                    "Pumpkin", "Radish", "Tomato"]
     
 
-    file = st.file_uploader("Upload a top view of a fruit picture", type=["jpg", "png", "jpeg", "webp"])
+    file = st.file_uploader("Please upload an intact picture of a vegetable (without any chopping or slicing)"), type=["jpg", "png", "jpeg", "webp"])
 
     if file is None:
         st.text("Upload a vegetable image available in our market")
