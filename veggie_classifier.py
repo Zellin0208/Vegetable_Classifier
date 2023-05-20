@@ -16,8 +16,8 @@ import cv2
 def main():
     # set up the Streamlit app
     st.set_page_config(page_title="Veggie_Classifer", page_icon="🥒")
+    st.write("Creator:")
     st.write("Airo Craven G. Cornillez")
-    st.write("CPE019 - CPE32S6")
     st.title("🥕 🍅  VeggieClassifier 🥔🥦")
     st.write("This web application is designed to identify different types of vegetables such as bean, bitter gourd, bottle gourd, brinjal, broccoli, cabbage, capsicum, carrot, cauliflower, cucumber, papaya, potato, pumpkin, radish or tomato.")
     st.write("This app can only predict the vegetables available in the market.")
